@@ -1,0 +1,18 @@
+
+.waviy span {
+    position: relative;
+    display: inline-block;
+    animation: waviy 4s infinite;
+    animation-delay: calc(.3s * var(--i));
+    font-size: 75px;
+    font-weight:bold;
+    color: white;
+  }
+  @keyframes waviy {
+    0%,40%,100% {
+      transform: translateY(0)
+    }
+    20% {
+      transform: translateY(-20px)
+    }
+  }

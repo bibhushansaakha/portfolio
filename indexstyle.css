@@ -20,6 +20,22 @@
 	left:8%;
 	transform: translateY(-50%);
 }
+
+.content img{
+	position: absolute;
+	transform: translate(180%,-10%);
+	height: 300px;
+	width: auto;
+	opacity: 4%;
+	border-radius: 25px 25px 25px 25px;
+
+}
+
+.content .imager:hover .content img{
+	opacity: 1;
+	transform: translateY(0);
+	transition-delay: 0.7s}
+
 h1{
 	color: white;
 	margin: 20px 0px 20px;
@@ -36,6 +52,10 @@ h4{
 	font-size: 20px;
 }
 
+#lastname{
+	font-size: 112px;
+	font-weight: bold;
+}
 .about{
 	width: 100%;
 	padding: 100px 0px;
@@ -44,7 +64,7 @@ h4{
 .about img{
 	height: auto;
 	width: 430px;
-    border-radius: 0px,20px,0px,20px;
+	border-radius: 250px 25px 250px 25px;
     overflow: hidden;
 }
 .about-text{
@@ -58,6 +78,11 @@ h4{
 	align-items: center;
 	justify-content: space-around;
 }
+.titleimg img{
+	height: 350px;
+	width:auto;
+}
+
 .about-text h2{
 	color: white;
 	font-size: 75px;
@@ -84,6 +109,7 @@ button{
 	text-decoration: none;
 	border: 2px solid transparent;
 	font-weight: bold;
+	font-size: 18px;
 	padding: 13px 30px;
 	border-radius: 30px;
 	transition: .4s; 
@@ -93,7 +119,27 @@ button:hover{
 	border: 2px solid purple;
 	cursor: pointer;
 }
-
+.full{
+	padding: 0;
+	margin: 0;
+	background-image: url(images/eduback.png);
+	background-size: 100%;
+}
+.education{
+	
+	width: 1130px;
+	max-width: 95%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.education h2{
+	color: white;
+	font-size: 75px;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+}
 
 footer{
 	position: relative;

@@ -162,7 +162,7 @@ p {
   font-weight: 300;
 }
 
-h1 {
+.timeline-content h1 {
   font-family: 'Saira', sans-serif;
   letter-spacing: 1.5px;
   color: white;
